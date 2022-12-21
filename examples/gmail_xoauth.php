@@ -16,7 +16,7 @@ use League\OAuth2\Client\Provider\Google;
 
 //SMTP needs accurate times, and the PHP time zone MUST be set
 //This should be done in your php.ini, but this is how to do it if you don't have access to that
-date_default_timezone_set('Etc/UTC');
+date_default_timezone_set('Asia/Taipei');
 
 //Load dependencies from composer
 //If this causes an error, run 'composer install'
